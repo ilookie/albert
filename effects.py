@@ -62,7 +62,7 @@ class Effect:
 
 class AttackEffect(Effect):
     def __init__(self, x, y, color=YELLOW):
-        super().__init__(x, y)
+        super().__init__(x, y)      
         # 创建剑光效果的粒子
         for _ in range(PARTICLE_COUNT):
             self.particles.append(
